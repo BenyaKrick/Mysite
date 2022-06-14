@@ -1,5 +1,5 @@
 #базовый каркас сайта
-from flask import Flask, render_template  #render_template - функция для подключения HTML шаблонов
+from flask import Flask, render_template, url_for  #render_template - функция для подключения HTML шаблонов
 
 app = Flask(__name__)  #создаем объект
 
